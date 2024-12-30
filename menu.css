@@ -1,0 +1,47 @@
+body{
+   justify-content: center;
+}
+.container{
+   border-style: hidden;
+  height:500px;
+   width:60%;
+   margin:50px;
+   background-color: rgb(28, 212, 28);
+   display: inline-block;
+   
+ 
+  
+}
+.lineone ,.linetwo ,.linethree{
+    background-color: rgb(238, 233, 238);
+    cursor: pointer;
+    height: 0.3cm;
+    width:2.5cm;
+    margin: 5px auto;
+    
+    
+    box-sizing: border-box;
+   border-style: hidden;
+   transition: transform 0.3s;
+
+}
+.lineone {
+
+    margin-top: 40%;
+   
+    
+}
+ .change .lineone{
+    transform: translate(10px, 20px) rotate(-45deg);
+  }
+  
+ .change .linetwo {opacity: 0;}
+  
+ .change .linethree {
+    transform: translate(8px, -11px) rotate(45deg);
+  }
+
+
+   
+  
+
